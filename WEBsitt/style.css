@@ -17,6 +17,12 @@ h1
 	color: #20bcd5;
    text-align: center;
    font-size: 50px;
+   
+
+}
+h1 span{
+	border: 4px dashed #20bcd5;
+	padding: 10px;
 }
 img{
 	height: 500px;
@@ -45,9 +51,69 @@ text-align: left;
 	text-align: right;
 }
 table{
+	width: 100%;
+	font-size: 11pt;
+}
+table,th,td{
+	border: 2px solid #cecece;
+	border-collapse: collapse;
 	text-align: center;
+	table-layout: fixed;
 }
 p{
 	padding: 0;
 	margin: 0;
+}
+.selected
+{
+	background-color: #f36f48;
+	color: white;
+	font-weight: bold;
+
+}
+.selected2
+{
+	background-color: yellow;
+	color: #2d2d24;
+	font-weight: bolder;
+
+}
+.selected3
+{
+	background-color: yellow;
+	color: #242d26;
+	font-weight: bolder;
+
+}
+form{
+	text-align: center;
+
+}
+.submit{
+	background-color: #3fb6b2;
+	color: #ffffff;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 12px 45px;
+	border-radius: 5px;
+
+}
+textarea{
+	height: 100px;
+}
+input,textarea{
+	width: 15%;
+	background-color: #efefef;
+	outline: none;
+	border-radius: 5px;
+	color: #787575;
+	margin-bottom: 10px;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+
+}
+.submit:hover{
+background-color: #43a09d;
 }
